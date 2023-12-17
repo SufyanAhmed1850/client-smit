@@ -1,0 +1,26 @@
+.button {
+    background-color: var(--purple-90-);
+    border-radius: 8px;
+    padding: 11px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.button:active {
+    background-color: var(--purple-60-);
+}
+
+.button:disabled {
+    background-color: var(--purple-90-);
+    opacity: 0.25;
+}
+
+.button h3 {
+    color: var(--white-90-);
+}

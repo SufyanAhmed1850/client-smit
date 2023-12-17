@@ -1,0 +1,37 @@
+.side-panel {
+    padding-top: 72px;
+    background-color: #ebebeb;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.logo {
+    width: 66px;
+}
+
+.students-tab {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.students-tab img {
+    width: 40px;
+}
+
+.attendance-tab {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.attendance-tab img {
+    width: 40px;
+}
+
+.none button{
+    display: none;
+}

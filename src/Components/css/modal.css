@@ -1,0 +1,44 @@
+.modal-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 24;
+    padding: 24px 32px;
+    border-radius: 12px;
+    min-height: 360px;
+    max-height: 600px;
+    overflow: auto;
+    outline: none;
+    border: none;
+}
+
+.modal-main h1 {
+    font-size: 26px;
+    color: #333333;
+}
+
+.attendance-table {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.attendance-row {
+    display: flex;
+}
+
+.attendance-row > * {
+    flex: 1;
+}
+
+.attendance-row h2 {
+    font-size: 16px;
+}
+.attendance-row p {
+    font-size: 14px;
+}
